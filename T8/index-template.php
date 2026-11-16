@@ -86,8 +86,8 @@
                         <img src="images/<?= htmlspecialchars($article['image']) ?>" alt="Équipe de développeurs en réunion">
                     </a>
                    <span class="etiquette-categorie <?php if ($article['categorie_couleur'] == 'bleu'): ?>bleu<?php else: ?>rose<?php endif; ?>">
-    <?= htmlspecialchars($article['categorie_libelle']) ?>
-</span>
+                    <?= htmlspecialchars($article['categorie_libelle']) ?>
+                </span>
                     <div class="carte-contenu">
                         <?php if($article['id'] == 1): ?>
                            <small class="badge-special">⭐ À la une</small>
