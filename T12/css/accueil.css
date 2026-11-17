@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: monospace;
+    background-color: #f3f8f1;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 800;
+}
+
+header .logo h2 {
+    font-size: 30px;
+}
+
+header .logo span {
+    color: #159570;
+}
+
+
+.nav-bar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+    font-family: 'baloo 2', cursive;
+    font-weight: 800;
+}
+
+.nav-bar ul li {
+    margin: 0 20px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #176b57;
+    transition: 0.4s;
+}
+
+.nav-bar ul li a:hover {
+    color: #064e3b;
+    text-decoration: underline;
+}
+
+header .dark span ion-icon {
+    font-size: 25px;
+    color: #087f5b;
+}
+
+
+.presentation {
+    margin-top: 30px;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.presentation .part-text {
+    width: 50%;
+}
+
+.presentation .part-text p {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.presentation .part-text p span {
+    color: #159570;
+}
+
+.presentation .part-text h1 {
+    font-size: 7rem;
+    color: #159570;
+    -webkit-text-stroke: 2px #111;
+    margin-top: 10px;
+
+}
+
+.presentation .part-text h1 span {
+    color: white;
+    -webkit-text-stroke: 2px #111;
+
+}
+
+.presentation .part-text .text1 span {
+    font-family: 'baloo 2', cursive;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.presentation .part-text .text1 {
+    font-family: 'baloo 2', cursive;
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+
+.presentation .part-text .text2 {
+    font-weight: bold;
+    color: #111;
+    opacity: 60%;
+    margin-top: 25px;
+    line-height: 1.5;
+}
+
+.image-profil {
+    width: 40%;
+}
+
+.image-profil img {
+    width: 90%;
+    border-radius: 10px;
+    overflow: hidden;
+    object-fit: cover;
+    height: 450px;
+    box-shadow: 0px 4px 15px #159570;
+
+}
+
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px 70px;
+}
+
+.prejecttt {
+        padding: 0px 50px;
+    font-family: 'baloo 2', cursive;
+    font-weight: 800;
+    color: #159570;
+}
+
+.card {
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 300px;
+}
+
+.card .part2 h2 {
+    color: #087f5b;
+}
+
+.card .part2 {
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.card .part2 p {
+    margin-top: 13px;
+    color: #141313;
+    opacity: 70%;
+}
+
+
+footer{
+    background-color: #087f5b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+    opacity: 70%;
+}
